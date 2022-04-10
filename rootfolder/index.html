@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Arvo&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Landing Page</title>
+</head>
+<body>
+    <header id="header">
+        <nav id="nav-bar">
+            <figure class="logo-figure">
+                <img id="header-img" class="logo" src="img/logonew.png" alt="My logo" class="header-img">
+            </figure>
+            <ul>
+                <a href="#email" class="nav-link"><li class="nav-btn">Features</li></a>
+                <a href="#video-id" class="nav-link"><li class="nav-btn">How It Works</li></a>
+                <a href="#how-it-works" class="nav-link"><li class="nav-btn">Pricing</li></a>
+            </ul>
+        </nav>
+        <form id="form" action="https://www.freecodecamp.com/email-submit" method="post">
+            <h2>You have reached upon a pocket of treasure</h2>
+            <label for="email">
+                <h4>Enter your email to receive exclusive offers!</h4>
+                <input type="email" name="email" id="email" placeholder="Enter your email address" required>
+            </label>
+            <br>
+            <button class="button" type="submit" id="submit">Notify Me</button>
+        </form>
+    </header>
+    <main>
+        <div class="container">
+            <h1 id="feature">Only the Best Apparel is Sold Here</h1>
+            <section class="list">
+                <section class="features">
+                    <!--I have to go to flaticon to attribute the logos into the footer I make otherwise they put me in poverty-->
+                    <figure><img src="img/1.png" alt="First Feature"></figure>
+                    <div class="desc"><h4>The Highest Quality Materials</h4><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin a mi eget metus accumsan interdum. In bibendum sodales imperdiet. Etiam sed nisi at arcu facilisis pretium. Ut mollis ut urna vitae consectetur.</p></div>
+                </section>
+                <section id="video-id" class="features">
+                    <figure><img src="img/2.png" alt="Second Feature"></figure>
+                    <div class="desc"><h4>3 Year Warranty</h4><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin a mi eget metus accumsan interdum. In bibendum sodales imperdiet. Etiam sed nisi at arcu facilisis pretium. Ut mollis ut urna vitae consectetur.</p></div>
+                </section>
+                <section class="features">
+                    <figure><img src="img/3.png" alt="Third Feature"></figure>
+                    <div class="desc"><h4>Lightning Quick Delivery</h4><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin a mi eget metus accumsan interdum. In bibendum sodales imperdiet. Etiam sed nisi at arcu facilisis pretium. Ut mollis ut urna vitae consectetur.</p></div>
+                </section>
+            </section>
+            <section id="how-it-works">
+                <iframe id="video" width="560" height="315" src="https://www.youtube.com/embed/kUMe1FH4CHE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </section>
+            <section id="price">
+                <section class="product">
+                    <div class="name">Top</div>
+                    <h3>£20</h3>
+                    <ol>
+                        <li>Lorem ipsum</li>
+                        <li>Lorem ipsum</li>
+                        <li>Lorem ipsum</li>
+                    </ol>
+                    <button type="button" class="button">Select</button>
+                </section>
+                <section class="product">
+                    <div class="name">Hoodie</div>
+                    <h3>£60</h3>
+                    <ol>
+                        <li>Lorem ipsum</li>
+                        <li>Lorem ipsum</li>
+                        <li>Lorem ipsum</li>
+                    </ol>
+                    <button type="button" class="button">Select</button>
+                </section>
+                <section class="product">
+                    <div class="name">Joggers</div>
+                    <h3>£45</h3>
+                    <ol>
+                        <li>Lorem ipsum</li>
+                        <li>Lorem ipsum</li>
+                        <li>Lorem ipsum</li>
+                    </ol>
+                    <button type="button" class="button">Select</button>
+                </section>
+            </section>
+        </div>
+    </main>
+    <footer>
+        <div class="footer">
+            <section>
+                <h4>Attributing the logos used above</h4>
+                <p><a class="flaticon" href="https://www.flaticon.com/free-icons/alphabet" target="_blank" title="alphabet icons">Alphabet icons created by Freepik - Flaticon</a></p>
+            </section>
+            <section>
+                <h4>Privacy</h4>
+                <p>Copyright 2022</p>
+            </section>
+            <section>
+                <h4>Contact Me</h4>
+                <p>123456</p>
+            </section>
+        </div>
+    </footer>
+</body>
+</html>
