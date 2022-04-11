@@ -1,3 +1,3 @@
-## wassup my slime
+#This is my Product landing page project for the freecodecamp project
 
-description yaknow
+There isn't much to say tbh
